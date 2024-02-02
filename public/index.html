@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-slate-100 flex justify-center items-center h-screen">
+    <div class="border-solid border-black border-transparent shadow-lg p-4 rounded-md w-96 min-h-96 flex justify-center items-center bg-slate-50">
+        <form name="forms" action="" on>
+            <div class="m-4">
+                <label class="block" for="nama">Masukan Nama<span>*</span></label>
+                <input class="" type="text" id="nama" name="nama" autocomplete="off" autofocus>
+            </div>
+            <div class="m-4">
+                <label class="block" for="email">Masukan Email<span>*</span></label>
+                <input class="" type="email" id="email" name="email" autocomplete="off">
+            </div>
+            <div class="m-4">
+                <label class="block" for="pesan">Masukan Pesan<span>*</span></label>
+                <input class="" type="text" id="pesan" name="pesan" autocomplete="off">
+            </div>
+            <div class="m-4 flex justify-end max-w-fit border border-black p-1 rounded-sm hover:bg-black hover:text-white hover:border-white">
+                <button value="submit" type="submit" onclick="cekValidasi()">Kirim</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
